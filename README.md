@@ -10,5 +10,7 @@ Features
 
 
  ## Project Files
+- [] (SPECIFICATION.md) - System specification document
+- [ARCHITECTURE.md] (ARCHITECTURE.md) - C4 diagrams and system architecture
 
  
