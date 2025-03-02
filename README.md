@@ -13,6 +13,7 @@ Features
 - SPECIFICATION.md - System specification document
 https://github.com/CarolNgomane/AI-Finance-Coach/blob/main/SPECIFICATION.md?plain=1
 - ARCHITECTURE.md - C4 diagrams and system architecture
+https://github.com/CarolNgomane/AI-Finance-Coach/blob/main/ARCHITECTURE.md
   
 
  
