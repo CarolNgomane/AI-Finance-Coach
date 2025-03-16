@@ -83,7 +83,10 @@ The **Use Case Specifications** document defines the detailed steps and conditio
 2. System verifies credentials.  
 3. User gains access to the dashboard.  
 **Alternative Flow:**  
-- If credentials are incorrect, the system displays an error message.  
+- If credentials are incorrect, the system displays an error message.
+
+![usecase01](https://github.com/user-attachments/assets/5a9f6569-06f1-41fa-9c18-7a27541e4599)
+
 
 ### Use Case 2: Track Expenses
 **Description:** Users manually input income and expenses.  
@@ -95,7 +98,10 @@ The **Use Case Specifications** document defines the detailed steps and conditio
 2. User enters transaction details.  
 3. System categorizes and saves the entry.  
 **Alternative Flow:**  
-- If required fields are missing, an error message is displayed.  
+- If required fields are missing, an error message is displayed.
+
+![usecase02](https://github.com/user-attachments/assets/12eb78d3-082f-44e6-94be-c503d1277b61)
+ 
 
 ### Use Case 3: Create & Manage Budgets
 **Description:** Users create, modify, and manage monthly budgets.  
@@ -107,7 +113,10 @@ The **Use Case Specifications** document defines the detailed steps and conditio
 2. User enters budget details.  
 3. System saves and links the budget.  
 **Alternative Flow:**  
-- If budget allocation exceeds income, the system warns the user.  
+- If budget allocation exceeds income, the system warns the user.
+
+![usecase03](https://github.com/user-attachments/assets/253afa05-92ec-4504-9528-ce404a42a81f)
+
 
 ### Use Case 4: AI-Powered Budget Recommendations
 **Description:** The system analyzes spending patterns and suggests optimized budget plans.  
@@ -119,7 +128,10 @@ The **Use Case Specifications** document defines the detailed steps and conditio
 2. System generates recommended budgets.  
 3. User reviews and applies the budget.  
 **Alternative Flow:**  
-- If insufficient data exists, the system notifies the user.  
+- If insufficient data exists, the system notifies the user.
+
+![usecase04](https://github.com/user-attachments/assets/dbfbd69e-53cd-4753-a704-3fff4d3f520f)
+
 
 ### Use Case 5: Set Savings Goals
 **Description:** Users define and track their savings objectives.  
@@ -131,7 +143,10 @@ The **Use Case Specifications** document defines the detailed steps and conditio
 2. User defines goal amount and timeframe.  
 3. System tracks progress.  
 **Alternative Flow:**  
-- If income is insufficient, the system suggests adjusting the goal.  
+- If income is insufficient, the system suggests adjusting the goal.
+
+![usecase05](https://github.com/user-attachments/assets/2098a30a-f00b-451e-b295-f3d939ead78f)
+
 
 ### Use Case 6: Receive Notifications
 **Description:** Users receive alerts for budget limits and financial insights.  
@@ -142,7 +157,10 @@ The **Use Case Specifications** document defines the detailed steps and conditio
 1. System monitors budget usage.  
 2. If spending exceeds 80% of the budget, a notification is sent.  
 **Alternative Flow:**  
-- If notifications are disabled, alerts are logged in the user’s dashboard.  
+- If notifications are disabled, alerts are logged in the user’s dashboard.
+
+![usecase06](https://github.com/user-attachments/assets/3d4a977c-1712-48e7-8212-12de9a4b63b4)
+
 
 ### Use Case 7: View Financial Dashboard
 **Description:** Users access a real-time summary of their financial health.  
