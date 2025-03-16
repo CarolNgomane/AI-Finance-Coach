@@ -171,7 +171,10 @@ The **Use Case Specifications** document defines the detailed steps and conditio
 1. User selects "Dashboard."  
 2. System retrieves and displays financial data.  
 **Alternative Flow:**  
-- If no financial data exists, the system prompts the user to enter transactions.  
+- If no financial data exists, the system prompts the user to enter transactions.
+
+![usecase07](https://github.com/user-attachments/assets/459780c2-f637-4342-8467-4c841a773f44)
+
 
 ### Use Case 8: Generate Financial Reports
 **Description:** Users export financial summaries in CSV/PDF.  
@@ -184,6 +187,9 @@ The **Use Case Specifications** document defines the detailed steps and conditio
 3. System processes and generates the file.  
 **Alternative Flow:**  
 - If no data exists, the system notifies the user.
+
+![usecase08](https://github.com/user-attachments/assets/788e7fef-1039-43e2-b41c-374896f721d9)
+
 
 
 
