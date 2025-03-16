@@ -1,5 +1,6 @@
 
 ## Use Case Specifications
+## Use Cases
 
 The **Use Case Diagram** provides a high-level overview of the interactions between users and the AI Finance Coach system. It visually represents how different actors engage with key system functionalities, outlining the relationships between users, system components, and core financial management features. This diagram serves as a foundation for understanding system behavior and guiding the development of functional components.
 
@@ -17,6 +18,24 @@ The **Use Case Diagram** provides a high-level overview of the interactions betw
 
 6. **Database System** – Stores user transactions, budget data, and reports.
 
+## Use Cases
+
+1. **Register & Authenticate** – Users register and log in securely.
+
+2. **Track Expenses** – Users manually input income and expenses.
+
+3. **Create & Manage Budgets** – Users set and modify monthly budgets.
+
+4. **Receive AI Budget Recommendations** – AI suggests optimized spending plans.
+
+5. **Set Savings Goals** – Users define and track savings objectives.
+
+6. **Receive Notifications** – System sends alerts for budget limits and financial insights.
+
+7. **View Financial Dashboard** – Users access a real-time financial summary.
+
+8. **Generate Financial Reports** – Users export financial summaries in CSV/PDF formats.
+
 
 ### Relationships Between Actors and Use Cases
 
@@ -32,7 +51,28 @@ The **Use Case Diagram** provides a high-level overview of the interactions betw
 
 - Database System stores and retrieves financial data for the system.
 
-## Use Cases
+![Untitled diagram-2025-03-14-131046](https://github.com/user-attachments/assets/563df7d9-9bde-4bf9-9a88-dd8e58a00f9f)
+
+
+
+## Addressing Stakeholder Concerns
+
+This use case diagram ensures that:
+
+- Users can efficiently manage their finances through intuitive tracking, budgeting, and reporting features.
+
+- AI Engine provides intelligent insights to improve financial habits.
+
+- Admins oversee system operations and ensure smooth functionality.
+
+- Automated Notifications help prevent overspending by alerting users.
+
+- Regulatory Compliance is maintained by storing financial data securely in the Database System
+
+
+## Use Case Specifications
+The **Use Case Specifications** document defines the detailed steps and conditions for each system functionality. It helps developers, testers, and stakeholders understand how the AI Finance Coach system behaves in different scenarios and how users interact with it. Each use case includes actors, preconditions, postconditions, and flow descriptions to ensure a structured approach to development and validation.
+
 ### Use Case 1: Register & Authenticate
 **Description:** Users register and log in securely.  
 **Actors:** User, System  
@@ -127,23 +167,7 @@ The **Use Case Diagram** provides a high-level overview of the interactions betw
 **Alternative Flow:**  
 - If no data exists, the system notifies the user.
 
-![Untitled diagram-2025-03-14-131046](https://github.com/user-attachments/assets/563df7d9-9bde-4bf9-9a88-dd8e58a00f9f)
 
-
-
-## Addressing Stakeholder Concerns
-
-This use case diagram ensures that:
-
-- Users can efficiently manage their finances through intuitive tracking, budgeting, and reporting features.
-
-- AI Engine provides intelligent insights to improve financial habits.
-
-- Admins oversee system operations and ensure smooth functionality.
-
-- Automated Notifications help prevent overspending by alerting users.
-
-- Regulatory Compliance is maintained by storing financial data securely in the Database System
 
 
 
