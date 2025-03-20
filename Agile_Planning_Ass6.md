@@ -1,6 +1,16 @@
 
 # Agile User Stories, Backlog, and Sprint Planning
 
+## Introduction
+
+The **AI Finance Coach** is a cutting-edge financial management tool designed to help users take control of their personal finances through AI-driven insights. With the increasing complexity of financial decision-making, many individuals struggle with budgeting, tracking expenses, and saving effectively. This system aims to simplify financial management by providing users with automated expense tracking, personalized budget recommendations, real-time financial health analysis, and savings goal tracking.
+
+By leveraging artificial intelligence and machine learning, the AI Finance Coach continuously learns from user spending habits and provides tailored suggestions to optimize financial behavior. The system also integrates alerts and notifications to ensure users remain within their budget limits and meet their financial goals.
+
+To ensure a structured and efficient development process, this document outlines the Agile methodology used in planning and building the AI Finance Coach. Agile enables flexibility, incremental development, and continuous improvement, allowing the team to refine functionalities based on user feedback and evolving requirements. Through user story creation, backlog prioritization, and sprint planning, the project remains adaptable and focused on delivering high-value features in each development cycle.The AI Finance Coach is a personal finance management system designed to help users track their spending, set budgets, and receive AI-driven financial recommendations. The system leverages artificial intelligence to analyze spending patterns and provide actionable insights to optimize savings and avoid overspending.
+
+This document outlines the Agile planning process for the AI Finance Coach, detailing how system requirements are broken down into user stories, organized into a prioritized backlog, and planned for the first sprint. By implementing Agile principles, the development process remains iterative, user-focused, and adaptable to changes, ensuring an efficient and structured approach to delivering value incrementally.
+
 ## 1. User Story Creation
 ### User Stories Table
 
@@ -35,6 +45,17 @@
 ### Sprint Goal
 The primary goal of **Sprint 1** is to **establish core functionalities**, allowing users to register, log in, and track financial transactions. This sprint lays the foundation for further enhancements, including AI-driven insights and financial reporting.
 
+Selected User Stories for Sprint 1
+
+The following user stories have been selected based on their priority and contribution to the Minimum Viable Product (MVP):
+
+- **US-001:** User Registration
+- **US-002:** User Login
+- **US-003:** Expense Tracking
+- **US-004:** Budget Management
+- **US-007:** Financial Dashboard
+
+
 ### Sprint Backlog
 
 | **Task ID** | **Task Description** | **Assigned To** | **Estimated Hours** | **Status** |
@@ -46,15 +67,30 @@ The primary goal of **Sprint 1** is to **establish core functionalities**, allow
 | T-005 | Develop basic financial dashboard | Developer 3 | 10 | To Do |
 | T-006 | Set up database schema | Developer 1 | 6 | To Do |
 | T-007 | Write unit tests for authentication | Developer 3 | 5 | To Do |
+| T-008 | Integrate budget management module | Developer 2 | 8 | To Do |
+
+### Sprint Contribution to MVP
+
+This sprint establishes the core functionalities of the AI Finance Coach by allowing users to register, log in, track transactions, and manage budgets. Completing these foundational tasks ensures that users can securely interact with the system and view their financial data in a structured format. These features are critical for enabling AI-driven recommendations in future sprints, leading to a fully functional and intelligent financial coaching platform.
+This sprint establishes the core functionalities of the AI Finance Coach by allowing users to register, log in, track transactions, and manage budgets. Completing these foundational tasks ensures that users can securely interact with the system and view their financial data in a structured format. These features are critical for enabling AI-driven recommendations in future sprints, leading to a fully functional and intelligent financial coaching platform.
 
 ## 4. Reflection on Agile Planning
+### Challenges in Prioritization and Estimation
 
-### Challenges Faced in Prioritization and Estimation
-One of the biggest challenges in Agile planning was **prioritizing user stories** based on value while considering technical complexity. While registration and authentication were essential for system security, transaction tracking required more development time but was equally crucial. Balancing these priorities while ensuring timely delivery required careful estimation.
+Agile development relies on prioritization, estimation, and discipline to ensure efficient execution. However, working as both the developer and sole stakeholder presented unique challenges. Balancing technical feasibility with user needs, accurately estimating tasks, and staying motivated without external pressure were the most significant difficulties.
 
-Estimating effort in **story points** was another challenge. Some tasks, such as developing the UI, seemed straightforward but required additional refinements. Similarly, backend tasks like database setup and API integration had hidden complexities that increased effort estimates.
+### Prioritization Challenges
 
-Another difficulty was aligning **technical tasks with user-centric features**. While users care about **interface usability**, developers focus on **security, performance, and database efficiency**. Breaking down large user stories into smaller, testable tasks helped mitigate this challenge.
+Without external stakeholders providing feedback, prioritizing user stories became an internal debate. Typically, product owners and users dictate what is most valuable. In this case, decisions were based on assumptions and logical sequencing rather than direct user input.
+
+To address this, I followed the MoSCoW prioritization method, categorizing core functionalities such as registration, authentication, and transaction tracking as must-haves, while AI-driven insights and reports were labeled as should-have or could-have features. Even with this structure, the absence of real-time feedback meant that prioritization was still speculative.
+
+### Estimation Difficulties
+
+Agile teams usually refine estimates collectively using story points, considering different perspectives. Working solo, I had to rely on research, past experiences, and best-guess estimations. Some tasks, such as user authentication, initially seemed simple but became complex due to security concerns like multi-factor authentication. Conversely, building the dashboard UI appeared complex but was streamlined through visualization libraries.
+
+Breaking down tasks into smaller, well-defined components helped improve accuracy. However, unforeseen complexities still led to time overruns, highlighting the importance of iterative learning in Agile estimation.
+
 
 ### Lessons Learned
 1. **MoSCoW Prioritization Helps** – Identifying core functionalities early allowed us to focus on must-have features in **Sprint 1** while planning enhancements for future sprints.
