@@ -13,7 +13,7 @@ To ensure a structured and efficient development process, this document outlines
 ## 1. User Story Creation
 ### User Stories Table
 
-https://github.com/users/CarolNgomane/projects
+https://github.com/users/CarolNgomane/projects/1
 
 
 https://github.com/CarolNgomane/AI-Finance-Coach/issues
