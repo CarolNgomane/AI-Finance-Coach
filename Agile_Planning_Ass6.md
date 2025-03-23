@@ -9,7 +9,6 @@ By leveraging artificial intelligence and machine learning, the AI Finance Coach
 
 To ensure a structured and efficient development process, this document outlines the Agile methodology used in planning and building the AI Finance Coach. Agile enables flexibility, incremental development, and continuous improvement, allowing the team to refine functionalities based on user feedback and evolving requirements. Through user story creation, backlog prioritization, and sprint planning, the project remains adaptable and focused on delivering high-value features in each development cycle.The AI Finance Coach is a personal finance management system designed to help users track their spending, set budgets, and receive AI-driven financial recommendations. The system leverages artificial intelligence to analyze spending patterns and provide actionable insights to optimize savings and avoid overspending.
 
-This document outlines the Agile planning process for the AI Finance Coach, detailing how system requirements are broken down into user stories, organized into a prioritized backlog, and planned for the first sprint. By implementing Agile principles, the development process remains iterative, user-focused, and adaptable to changes, ensuring an efficient and structured approach to delivering value incrementally.
 
 ## 1. User Story Creation
 ### User Stories Table
@@ -93,7 +92,7 @@ Breaking down tasks into smaller, well-defined components helped improve accurac
 
 
 ### Lessons Learned
-1. **MoSCoW Prioritization Helps** – Identifying core functionalities early allowed us to focus on must-have features in **Sprint 1** while planning enhancements for future sprints.
+1. **MoSCoW Prioritization Helps** – Identifying core functionalities early allowed me to focus on must-have features in **Sprint 1** while planning enhancements for future sprints.
 2. **Story Points Improve Planning** – Using effort estimates helped distribute workload evenly and anticipate potential bottlenecks.
 3. **User Needs vs. Technical Challenges** – Balancing both perspectives ensured that the system was both functional and scalable.
 
