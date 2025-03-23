@@ -15,9 +15,6 @@ To ensure a structured and efficient development process, this document outlines
 
 https://github.com/users/CarolNgomane/projects/1
 
-https://github.com/CarolNgomane/AI-Finance-Coach/projects?query=is%3Aopen
-
-
 https://github.com/CarolNgomane/AI-Finance-Coach/issues
 
 | **User Story ID** | **User Story** | **Acceptance Criteria** | **Priority** |
