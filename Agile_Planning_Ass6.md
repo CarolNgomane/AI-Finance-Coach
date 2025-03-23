@@ -12,6 +12,7 @@ To ensure a structured and efficient development process, this document outlines
 
 ## 1. User Story Creation
 ### User Stories Table
+https://github.com/CarolNgomane/AI-Finance-Coach/issues
 
 | **User Story ID** | **User Story** | **Acceptance Criteria** | **Priority** |
 |------------------|---------------|--------------------|----------|
