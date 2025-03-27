@@ -94,6 +94,20 @@ Requirements may evolve as new insights emerge. Without continuous updates, exis
 - Implement automated regression testing once development begins.
 
 
+# Reflection challenges in template selection/customization   
+
+## Challenges Faced  
+- **Choosing a suitable template**: Automated Kanban had the best balance of features.  
+- **Customizing columns**: Adding "Testing" and "Blocked" required workflow changes.  
+- **Managing linked issues**: Assigning issues and labels took time.  
+
+## Comparing GitHub’s Kanban to Other Tools  
+| Feature | GitHub Projects | Trello | Jira |  
+|---------|----------------|--------|------|  
+| **Automation** |  Yes | Limited | Yes |  
+| **Agile Sprint Support** | Yes | No |  Yes |  
+| **Issue Linking** |  GitHub Issues |  Manual |  Jira Issues |  
+
 
 
 
