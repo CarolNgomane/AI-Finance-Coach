@@ -32,6 +32,7 @@
 ## Justification for Chosen Template  
 
 **Selected Template: Automated Kanban**  
+https://github.com/users/CarolNgomane/projects/5/views/1
 
 The **Automated Kanban** template is the most effective choice for this project due to the following reasons:  
 
@@ -45,7 +46,13 @@ The **Automated Kanban** template is the most effective choice for this project 
 
 3. **Visibility and Task Management:**  
    - Allows better visualization of workload distribution.  
-   - Helps maintain project momentum with automated task progressions.  
+   - Helps maintain project momentum with automated task progressions.
+
+   
+![kb1](https://github.com/user-attachments/assets/b2588d16-4954-4666-8163-50503408f69e)
+
+![kb2](https://github.com/user-attachments/assets/0689c4fe-eed8-4d56-b437-8870b07f898b)
+
 
  
 
