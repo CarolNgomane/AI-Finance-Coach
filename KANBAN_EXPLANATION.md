@@ -23,7 +23,7 @@ The core principles of Kanban include:
 | **Done** | Completed work |  
 
 ## **Kanban Board Overview**
-Example In this project, created a **customized Kanban board** within the Agile Task Management System. The board consists of the following columns:
+Example In the AI-Finance Coach project, created a **customized Kanban board** within the Agile Task Management System. The board consists of the following columns:
 
 | Column | Description | Example from the Assignment |
 |--------|------------|---------------------------|
