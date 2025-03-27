@@ -54,6 +54,8 @@ The **Automated Kanban** template is the most effective choice for this project 
 ![kb2](https://github.com/user-attachments/assets/0689c4fe-eed8-4d56-b437-8870b07f898b)
 
 
- 
+
+ ![issues](https://github.com/user-attachments/assets/07203642-6a04-42f7-8962-95cdf9178ff8)
+
 
 The **Automated Kanban** template was selected because it enhances workflow automation, supports Agile sprint planning, and ensures seamless task tracking. By leveraging this template, the project can benefit from a well-structured and efficient management system.  
