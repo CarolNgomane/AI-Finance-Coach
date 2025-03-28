@@ -12,15 +12,13 @@ The core principles of Kanban include:
 
 
 ## Columns and Workflow  
-| Column | Purpose |  
-|--------|---------|  
-| **Backlog** | Pending tasks |  
-| **Ready** | Tasks ready for work |  
-| **In Progress** | Active development |  
-| **In Review** | Undergoing peer review |  
-| **Testing** | QA verification |  
-| **Blocked** | Dependency issues |  
-| **Done** | Completed work |  
+ **Backlog** - Pending tasks  
+ **Ready** - Tasks ready for work   
+ **In Progress** - Active development  
+ **In Review** - Undergoing peer review  
+ **Testing** - QA verification  
+ **Blocked** - Dependency issues   
+ **Done**- Completed work   
 
 ## **Kanban Board Overview**
 Example In the AI-Finance Coach project, created a **customized Kanban board** within the Agile Task Management System. The board consists of the following columns:
@@ -36,6 +34,10 @@ Example In the AI-Finance Coach project, created a **customized Kanban board** w
 | **Blocked** | Tasks that cannot progress due to dependencies, issues, or other blockers. | *(Currently Empty, to be used for validation/testing)* |
 | **Done** | Tasks that have been completed, tested, and approved for deployment or usage. | *(Currently Empty, to be used for validation/testing)* |
 
+
+
+
+![kanban1](https://github.com/user-attachments/assets/12a4aae5-ef14-4fa6-802e-d3434c37ab6a)
 
 
 
