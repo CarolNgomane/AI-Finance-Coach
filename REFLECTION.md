@@ -93,20 +93,46 @@ Requirements may evolve as new insights emerge. Without continuous updates, exis
 - Regularly review and update **use cases and test cases** to reflect evolving requirements.
 - Implement automated regression testing once development begins.
 
-
-# Reflection challenges in template selection/customization   
+# Reflection on Template Selection and Customization  
 
 ## Challenges Faced  
-- **Choosing a suitable template**: Automated Kanban had the best balance of features.  
-- **Customizing columns**: Adding "Testing" and "Blocked" required workflow changes.  
-- **Managing linked issues**: Assigning issues and labels took time.  
 
-## Comparing GitHub’s Kanban to Other Tools  
-| Feature | GitHub Projects | Trello | Jira |  
-|---------|----------------|--------|------|  
-| **Automation** |  Yes | Limited | Yes |  
-| **Agile Sprint Support** | Yes | No |  Yes |  
-| **Issue Linking** |  GitHub Issues |  Manual |  Jira Issues |  
+### 1. Choosing a Suitable Template  
+Selecting the right Kanban template was challenging due to the variety of options available in **GitHub Projects**. The **Automated Kanban** template was ultimately chosen because it provided **built-in automation** for issue tracking, which streamlined workflow management. However, other templates, such as **Basic Kanban** and **Bug Triage**, had their own advantages, making the decision difficult.  
+
+### 2. Customizing Columns  
+The default **Automated Kanban** template had pre-defined columns, but our workflow required additional stages, such as:  
+
+- **Testing** – Ensuring that tasks meet quality assurance standards before completion.  
+- **Blocked** – Identifying tasks that require resolution before progressing.  
+
+Adding these columns required adjusting the workflow to **accommodate testing phases and dependencies**, which was not straightforward.  
+
+### 3. Managing Linked Issues and Assignments  
+While GitHub’s issue tracking system integrates well with Kanban boards, manually **linking issues, adding labels (e.g., bug, feature, enhancement), and assigning tasks** required extra effort. Ensuring each task was properly categorized and assigned took time, especially for larger projects.  
+
+---
+
+## Comparison: GitHub Kanban vs. Other Tools  
+
+| **Feature**            | **GitHub Projects** | **Trello** | **Jira** | **Asana** | **ClickUp** |
+|------------------------|--------------------|------------|----------|-----------|-------------|
+| **Automation**         | Yes                | Limited    | Yes      | Yes (Paid)| Yes         |
+| **Agile Sprint Support** | Yes              | No         | Yes      | Limited   | Yes         |
+| **Issue Linking**      | GitHub Issues      | Manual     | Jira Issues | Manual  | ClickUp Tasks |
+| **Customization**      | Moderate           | High       | High     | High      | High        |
+| **Best For**           | Dev Teams          | Simple Tasks | Agile Teams | General Teams | Agile & Teams |
+
+---
+
+## Key Observations  
+- **GitHub Projects** is best suited for **development teams** that use GitHub Issues for tracking. Its automation is powerful but **less flexible** than Trello or ClickUp.  
+- **Trello** provides a simple and highly customizable Kanban system, but **lacks built-in automation** and Agile support.  
+- **Jira** is the **most robust** for Agile workflows but is **complex and requires configuration**.  
+- **Asana** is great for general project management but **lacks deep integration** with GitHub.  
+- **ClickUp** balances Agile functionality with flexibility, making it a strong alternative to Jira.  
+
+  
 
 
 
