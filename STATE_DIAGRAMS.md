@@ -4,12 +4,18 @@ This document presents state transition diagrams for critical objects in the AI 
 
 ## 1. User Account State Model
 
-### Key States and Transitions:
+### Key States 
 - **Registered**: User has signed up but not verified.
 - **Verified**: User confirms registration via email/social login.
 - **Active**: User logs in and accesses system features.
 - **Suspended**: Admin disables the user due to policy violations.
 - **Deleted**: User deletes the account, and data is removed.
+### Transitions
+- **Register** → Registered (User completes signup)
+- **Registered** → Verified (Email verification successful)
+- **Verified** → Active (User logs in)
+- **Active** → Suspended (Admin action due to policy breach)
+- **Active** → Deleted (User requests account deletion)
 
 ![dgrm1](https://github.com/user-attachments/assets/6960d851-96c1-410c-ac30-0be2002f9379)
 
