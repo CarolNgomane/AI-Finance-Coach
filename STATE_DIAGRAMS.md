@@ -32,7 +32,8 @@ This document presents state transition diagrams for critical objects in the AI 
 - **Reviewed**: AI suggests optimizations; user confirms.
 - **Deleted**: User removes the expense entry.
 
-![dgrm2](https://github.com/user-attachments/assets/23391c08-8064-42fc-9209-d65ec31e73d9)
+![umll2](https://github.com/user-attachments/assets/fd2d4a3a-a638-41a9-b7df-262e3432d301)
+
 
 
 **Mapping to Requirements:**
