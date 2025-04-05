@@ -127,10 +127,6 @@ This project is designed to help software teams track tasks efficiently using a 
 
 
 
-## Contact
-- **Author**: Carol Ngomane
-- **GitHub**: [CarolNgomane](https://github.com/CarolNgomane)
-
   
 
  
