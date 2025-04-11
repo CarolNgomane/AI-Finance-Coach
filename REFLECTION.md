@@ -170,6 +170,40 @@ Both **state diagrams** and **activity diagrams** were essential for understandi
 - Together, they provided a **comprehensive understanding** of the system’s logic and functionality.
 
 
+# Reflection Challenges in Designing the Domain Model
+
+---
+
+
+Determining the right number of entities and their level of detail was one of the initial challenges. Including too few would oversimplify the system, while too many could make the model overly complex. For example, deciding whether to keep Notifications and Reports as separate entities or merge them under a generic "Output" entity was debated. Ultimately, they were modeled separately to preserve their unique attributes and behaviors.
+
+It was also difficult to identify clear boundaries between what should be a method versus a responsibility handled by another component (e.g., should the AI engine generate reports, or should that be a separate report entity?). These distinctions were refined through iteration and feedback.
+
+### 1. Alignment with Previous Assignments
+
+The entities and their relationships closely reflect prior functional requirements and user stories:
+
+- "User sets savings goal" → leads to the Goal entity.
+- "User receives notifications for overspending" → results in the Notification class.
+- "AI gives budgeting advice" → motivates the AIEngine class.
+- State diagrams from Assignment 8 showing Budget status transitions aligned with the attributes and methods of the Budget class.
+
+Agile sprint tasks that focused on user authentication, budget creation, and transaction tracking directly map to User, Budget, and Transaction classes respectively.
+
+### 2. Design Trade-offs
+
+Several design decisions involved trade-offs:
+- **Association vs. Inheritance:** Instead of having specialized user roles inherit from User, all roles are treated under one class with feature-based control for simplicity.
+- **Aggregation vs. Composition:** Budget and Transaction are linked via aggregation (Budget can exist without Transactions temporarily), which simplifies data flow.
+- **AIEngine vs. external service:** Initially AI was a method in Budget, but separating it as a class clarified its distinct responsibilities and reusability.
+
+### 3. Lessons Learned
+
+- **Abstraction clarity:** Defining what each class does and limiting its scope was key to maintaining clean separation of concerns.
+- **Iteration is essential:** Revising the model multiple times helped balance detail with simplicity.
+- **Mapping to user needs:** Tracing every class and method to a functional requirement or user story improved confidence that the model reflects real usage.
+- **Mermaid.js practice:** Working with Mermaid syntax clarified how models are interpreted visually, aiding team collaboration.
+
 
 
 
