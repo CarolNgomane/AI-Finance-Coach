@@ -26,6 +26,14 @@ This diagram supports:
 - **FR-006**: `NotificationSystem` and `Notification` handle smart alerts.
 - **FR-007 & FR-008**: `Report` and AI functions offer insights and export capabilities.
 
+## Notes:
+
+- **User** is the central entity.
+- **Transaction, Budget, SavingsGoal, and Report** are all user-related features.
+- **AIEngine** is a service entity responsible for analytics and insights.
+- All methods reflect system operations aligned with your **functional requirements** and **use cases** (from Assignments 4–6).
+- This diagram supports the object-oriented view of the system and helps visualize entity responsibilities and relationships.
+
 ---
 
 ## 📊 Mermaid.js Class Diagram
@@ -124,6 +132,5 @@ SavingsGoal --> Transaction : tracks from
 Notification <|-- EmailNotification
 Notification <|-- SMSNotification
 NotificationSystem --> Notification : uses
-
 
 
