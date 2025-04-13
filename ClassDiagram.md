@@ -18,7 +18,7 @@
 
 ---
 
-##  How This Supports Functional Requirements
+##  How It Supports Functional Requirements
 This diagram supports:
 - **FR-001**: Registration/Login through `User` class.
 - **FR-002 to FR-004**: `Transaction`, `Budget`, and `AIBudgetAdvisor` provide tracking and optimization.
