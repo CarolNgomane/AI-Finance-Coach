@@ -9,7 +9,7 @@ public class Transaction {
     private String category;
     private String type;
 
-    public Transaction(String transactionId, Date date, float amount, String category, String type) {
+    public Transaction(String transactionId, Date date, double amount, String category, String type) {
         this.transactionId = transactionId;
         this.date = date;
         this.amount = amount;

@@ -15,6 +15,9 @@ public class SavingsGoal {
         this.deadline = deadline;
     }
 
+    public SavingsGoal(String goalId, double targetAmount, double deadline) {
+    }
+
     public void updateProgress(float saved) {
         this.currentAmount += saved;
     }
@@ -23,3 +26,4 @@ public class SavingsGoal {
         this.targetAmount = newTarget;
     }
 }
+//

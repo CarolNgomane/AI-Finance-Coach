@@ -1,5 +1,5 @@
 package aicoach.notification;
-
+//
 public class EmailNotification extends Notification {
     private String email;
 

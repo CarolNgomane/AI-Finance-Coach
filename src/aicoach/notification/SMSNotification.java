@@ -3,7 +3,7 @@ package aicoach.notification;
 public class SMSNotification extends Notification {
     private String phoneNumber;
 
-    public SMSNotification(String phoneNumber) {
+    public SMSNotification(String phoneNumber, String message, String phone) {
         this.phoneNumber = phoneNumber;
     }
 

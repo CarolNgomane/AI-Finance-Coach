@@ -1,21 +1,19 @@
-package aicoach.budget;
-
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Budget {
+public static class budget {
     private String budgetId;
     private float totalAmount;
     private Map<String, Float> categoryLimits = new HashMap<>();
-    private Date startDate;
-    private Date endDate;
 
-    public Budget(String budgetId, float totalAmount, Date startDate, Date endDate) {
+    public budget(String budgetId, float totalAmount, Date startDate, Date endDate) {
         this.budgetId = budgetId;
         this.totalAmount = totalAmount;
-        this.startDate = startDate;
-        this.endDate = endDate;
+    }
+
+    public budget(String budgetId) {
+
     }
 
     public void createBudget() {
@@ -26,3 +24,18 @@ public class Budget {
         this.totalAmount = newAmount;
     }
 }
+
+@Override
+public budget clone() {
+    budget clone = new budget(this.budgetId);
+    clone.categoryLimits = new HashMap<>(this.categoryLimits);
+    return clone;
+}
+
+private String budgetId;
+
+public void main() {
+}
+
+private int categoryLimits;
+

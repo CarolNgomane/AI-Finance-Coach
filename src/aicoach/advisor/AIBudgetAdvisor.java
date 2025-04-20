@@ -1,10 +1,8 @@
 package aicoach.advisor;
 
 public class AIBudgetAdvisor {
-    private String modelVersion;
 
     public AIBudgetAdvisor(String modelVersion) {
-        this.modelVersion = modelVersion;
     }
 
     public void generateRecommendations() {
