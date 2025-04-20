@@ -62,42 +62,44 @@ The following features are planned for future versions of AI Finance Coach:
 
 ## 🛠 Pattern Implementations
 
-✅**1. Simple Factory**
- **Use Case:**
-- Centralized creation of Notification objects.
-- A NotificationFactory that creates EmailNotification or SMSNotification based on input.
+# 💸 AI Budget & Notification System – Assignment 10
 
-✅ **2. Factory Method**
-**Use Case:**
-- subclasses decide which report format to create.
-- ReportFactory interface with CSVReportFactory and PDFReportFactory subclasses that generate respective report types.
+This Java project demonstrates the **Six Creational Design Patterns** through a budgeting and notification system. The system models how users manage their budgets, set goals, and receive notifications using various object creation techniques.
 
-✅ **3. Abstract Factory**
-**Use Case:**
-- family of related objects — for example, notifications.
-- NotificationFactory interface with concrete factories like AlertNotificationFactory or ReminderNotificationFactory that produce both email and SMS types.
+---
 
-✅ **4. Builder**
-**Use Case:**
-- Implement a BudgetBuilder class with chaining methods like setStartDate(), addCategoryLimit(), etc.
+## 🧩 Design Patterns Used (with Justification)
 
-✅ **5. Prototype**
-**Use Case:**
-- Cloning existing SavingsGoal templates to avoid reinitialization.
-- Implement Cloneable in the SavingsGoal class and create a SavingsGoalCache that stores and clones goals.
+| Pattern              | File                                 | Justification |
+|----------------------|--------------------------------------|---------------|
+| **Singleton**        | `DatabaseConnection.java`            | Ensures only one instance of a database connection is used throughout the app. Critical for resource management and consistency. |
+| **Factory Method**   | `NotificationFactory.java`           | Delegates the creation of `Notification` objects (Email, SMS), allowing dynamic instantiation based on type. |
+| **Abstract Factory** | `AbstractNotificationFactory.java`   | Provides an interface for creating related objects (email/sms notifications) without specifying their concrete classes. Useful for scalable notification families. |
+| **Builder**          | `SavingsGoalBuilder.java`            | Facilitates the construction of `SavingsGoal` objects step by step, useful when objects have many optional fields. |
+| **Prototype**        | `BudgetPrototype.java`               | Enables cloning of existing budget objects to allow quick duplication with minimal setup. |
+| **Simple Factory**   | `SimpleTransactionFactory.java`      | A static factory used to centralize transaction creation logic for reuse and encapsulation. |
 
-✅ **6. Singleton**
-**Use Case:**
-- Ensure only one instance of NotificationSystem is used across the app.
-- NotificationSystem a singleton to avoid duplicate alert systems.
+---
+
+### Pattern Justification (In-depth)
+🟢 **Singleton – DatabaseConnection**
+Ensures only one instance of the database connection is ever created. This helps prevent accidental multiple connections and ensures global access.
+
+🟢 **Factory Method – NotificationFactory**
+Encapsulates the object creation logic and returns different types of Notification objects depending on the input (email/SMS).
+
+🟢 **Abstract Factory – AbstractNotificationFactory**
+Promotes flexibility by allowing the creation of families of notifications (e.g., urgent vs non-urgent types), and it enables extensibility without modifying core logic.
+
+🟢 **Builder – SavingsGoalBuilder**
+Allows for flexible and readable construction of SavingsGoal objects with optional parameters, avoiding constructors with many parameters.
+
+🟢 **Prototype – BudgetPrototype**
+Provides a cloning mechanism to quickly duplicate existing budget configurations, reducing setup time and promoting reusability.
+
+🟢 **Simple Factory – SimpleTransactionFactory**
+A static factory method centralizes the creation of Transaction objects, keeping the instantiation logic in one place and decoupling it from the rest of the app.
 
 
-### 🧩 Creational Patterns Justification
 
-- **Simple Factory** used for Notification creation due to centralized decision-making logic.
-- **Factory Method** applied for Report generation (PDF or CSV) to delegate instantiation to format-specific classes.
-- **Abstract Factory** implemented for grouped notifications (alerts or reminders).
-- **Builder** pattern used to construct complex Budget objects step-by-step.
-- **Prototype** applied to clone reusable SavingsGoal templates efficiently.
-- **Singleton** implemented for NotificationSystem to prevent duplicate instances across the application.
-Let me know if you want me to generate the actual code for each of these patterns next — ready to go when you are!
+
