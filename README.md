@@ -57,3 +57,47 @@ The following features are planned for future versions of AI Finance Coach:
 - **Mobile Application**: A mobile version of the app to allow users to manage their finances on the go.
 - **Machine Learning for Financial Advice**: Incorporating machine learning to enhance the AI Budget Advisor and provide smarter, more accurate recommendations.
 - **Advanced Reporting**: More detailed and customizable reports, including graphs and financial trends over time.
+
+
+
+🛠 Pattern Implementations
+
+✅**1. Simple Factory**
+ **Use Case:**
+- Centralized creation of Notification objects.
+- A NotificationFactory that creates EmailNotification or SMSNotification based on input.
+
+✅ **2. Factory Method**
+**Use Case:**
+- subclasses decide which report format to create.
+- ReportFactory interface with CSVReportFactory and PDFReportFactory subclasses that generate respective report types.
+
+✅ **3. Abstract Factory**
+**Use Case:**
+- family of related objects — for example, notifications.
+- NotificationFactory interface with concrete factories like AlertNotificationFactory or ReminderNotificationFactory that produce both email and SMS types.
+
+✅ **4. Builder**
+**Use Case:**
+- Implement a BudgetBuilder class with chaining methods like setStartDate(), addCategoryLimit(), etc.
+
+✅ **5. Prototype**
+**Use Case:**
+- Cloning existing SavingsGoal templates to avoid reinitialization.
+- Implement Cloneable in the SavingsGoal class and create a SavingsGoalCache that stores and clones goals.
+
+✅ **6. Singleton**
+**Use Case:**
+- Ensure only one instance of NotificationSystem is used across the app.
+- NotificationSystem a singleton to avoid duplicate alert systems.
+
+
+### 🧩 Creational Patterns Justification
+
+- **Simple Factory** used for Notification creation due to centralized decision-making logic.
+- **Factory Method** applied for Report generation (PDF or CSV) to delegate instantiation to format-specific classes.
+- **Abstract Factory** implemented for grouped notifications (alerts or reminders).
+- **Builder** pattern used to construct complex Budget objects step-by-step.
+- **Prototype** applied to clone reusable SavingsGoal templates efficiently.
+- **Singleton** implemented for NotificationSystem to prevent duplicate instances across the application.
+Let me know if you want me to generate the actual code for each of these patterns next — ready to go when you are!
