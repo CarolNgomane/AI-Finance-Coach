@@ -60,7 +60,7 @@ The following features are planned for future versions of AI Finance Coach:
 
 
 
-🛠 Pattern Implementations
+## 🛠 Pattern Implementations
 
 ✅**1. Simple Factory**
  **Use Case:**
