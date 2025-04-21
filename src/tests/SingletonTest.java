@@ -23,4 +23,3 @@ public class SingletonTest {
         assertNotNull(DatabaseConnection.getInstance());
     }
 }
-//
