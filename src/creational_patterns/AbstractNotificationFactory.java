@@ -5,7 +5,7 @@ import aicoach.notification.SMSNotification;
 import aicoach.notification.EmailNotification;
 
 public interface AbstractNotificationFactory {
-    Notification createNotification(String id, String message);
+    Notification createNotification(String id);
 }
 
 class ConcreteSMSFactory implements AbstractNotificationFactory {
@@ -16,7 +16,7 @@ class ConcreteSMSFactory implements AbstractNotificationFactory {
     }
 
     @Override
-    public Notification createNotification(String id, String message) {
+    public Notification createNotification(String id) {
         return new SMSNotification(id, message, phone);
     }
 }
@@ -29,7 +29,7 @@ class ConcreteEmailFactory implements AbstractNotificationFactory {
     }
 
     @Override
-    public Notification createNotification(String id, String message) {
+    public Notification createNotification(String id) {
         return new EmailNotification(id);
     }
 }
